@@ -9,8 +9,8 @@ function App() {
         {/* Admin route defaults to the main root URL */}
         <Route path="/" element={<OwnerDashboard />} />
         
-        {/* Public booking form endpoint */}
-        <Route path="/book" element={<VisitorBooking />} />
+        {/* Public booking form endpoint updated to /booking */}
+        <Route path="/booking" element={<VisitorBooking />} />
       </Routes>
     </BrowserRouter>
   );
